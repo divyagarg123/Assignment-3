@@ -1,4 +1,4 @@
-# S-4
+# S-3
 
 ## Part-1
 1. Below is the image of simple neural network with 1 input layer , 1 hidden layer and 1 output layer. We have two inputs and two outputs. 
