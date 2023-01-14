@@ -38,9 +38,17 @@ For that, we need to find the partial derivatives of E_total w.r.t all weights(w
 
 ## Part-2
 
-![image](https://user-images.githubusercontent.com/109232157/212314039-4e0f18f1-58bb-42d2-bfda-43f154899a0f.png)
+Below is the network, layers i have used to bring mnist accuracy to 99.4%.
+Dropouts and batch norms are used after every layer except last.
+Maxpoolings used in second and 4th block.
+1*1 convolutions are used in 5th block just to filter information.
+Average pooling is used and after that fully connected layer is used.
 
-![image](https://user-images.githubusercontent.com/109232157/212314162-4fa4b564-2481-40de-b1f7-05e1d7cdca06.png)
+![image](https://user-images.githubusercontent.com/109232157/212445621-c5fa0a96-5773-4cbf-9a62-2900b1e73c1b.png)
+
+![image](https://user-images.githubusercontent.com/109232157/212445464-4477831c-7561-472d-a47d-5f13c51f56c5.png)
+
+![image](https://user-images.githubusercontent.com/109232157/212445477-983c5126-568a-40e2-aabb-5d999b725cc5.png)
 
 
 
