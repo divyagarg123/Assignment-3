@@ -39,12 +39,16 @@ For that, we need to find the partial derivatives of E_total w.r.t all weights(w
 ## Part-2
 
 Below is the network, layers i have used to bring mnist accuracy to 99.4%.
-Dropouts and batch norms are used after every layer except last.
+Dropouts(5%) and batch norms are used after every layer except last.
 Maxpoolings used in second and 4th block.
 1*1 convolutions are used in 5th block just to filter information.
 Average pooling is used and after that fully connected layer is used.
 
 ![image](https://user-images.githubusercontent.com/109232157/212445621-c5fa0a96-5773-4cbf-9a62-2900b1e73c1b.png)
+
+In below picture, parameters are shown and how receptive field is increasing with image size decreasing.
+Input size = 28(input size)->28(first conv layer, padding-1)->26(second conv)->13(max pool)->11(third conv)->9(fouth conv)->4(max pooling)->2(fifth conv)->1(avg pooling)
+Receptive fields: 1------------------->2------------------------------->4--------------> 8----------->10------------>12------------>24--------------->26------------>28
 
 ![image](https://user-images.githubusercontent.com/109232157/212445464-4477831c-7561-472d-a47d-5f13c51f56c5.png)
 
